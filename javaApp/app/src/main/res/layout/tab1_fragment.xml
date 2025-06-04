@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textTab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="Limites de Plasticidade"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textTab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Peneiras"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnTEST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="214dp"
+        android:text="Classificar"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/trb_LP"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textTab1"
+        android:layout_alignTop="@+id/trb_LL"
+        android:ems="10"
+        android:hint="LP"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/trb_LL"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textTab1"
+        android:layout_marginTop="189dp"
+        android:ems="10"
+        android:hint="LL"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/trb_P200"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="P200"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/trb_P40"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/trb_P200"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="P40"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/trb_P10"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/trb_P200"
+        android:layout_marginEnd="37dp"
+        android:ems="10"
+        android:hint="P10"
+        android:inputType="number|numberDecimal" />
+
+</RelativeLayout>

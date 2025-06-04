@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/usc_P4"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/usc_P200"
+        android:layout_marginEnd="53dp"
+        android:ems="10"
+        android:hint="P4"
+        android:inputType="number|numberDecimal" />
+
+    <TextView
+        android:id="@+id/textTab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:text="Limites de Plasticidade"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textTab5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="227dp"
+        android:text="Diâmetros (mm)"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textTab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Peneiras"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnTEST2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="137dp"
+        android:text="Classificar"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usc_P200"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textTab4"
+        android:layout_marginStart="58dp"
+        android:ems="10"
+        android:hint="P200"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/usc_LL"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/usc_P200"
+        android:layout_below="@+id/textTab2"
+        android:ems="10"
+        android:hint="LL"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/usc_FI10"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/usc_P200"
+        android:layout_below="@+id/textTab5"
+        android:ems="10"
+        android:hint="ϕ10"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/usc_FI30"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/usc_FI10"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="ϕ30"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/usc_FI60"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/usc_P4"
+        android:layout_alignTop="@+id/usc_FI10"
+        android:ems="10"
+        android:hint="ϕ60"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/usc_LP"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/usc_P4"
+        android:layout_alignTop="@+id/usc_LL"
+        android:ems="10"
+        android:hint="LP"
+        android:inputType="number|numberDecimal" />
+
+</RelativeLayout>
